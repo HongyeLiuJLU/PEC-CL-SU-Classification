@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import (accuracy_score, f1_score, confusion_matrix, ConfusionMatrixDisplay)
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('SUs no C.csv')
+df = pd.read_csv('SUs.csv')
 X = df.drop(columns=['label'])
 y = df['label']
 
